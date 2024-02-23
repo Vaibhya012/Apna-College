@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <table border="1">
+        <caption>Table</caption>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+        </tr>
+
+        <tr>
+            <td>Vaibhav Hudekar</td>
+            <td>18</td>
+        </tr>
+        <tr>
+            <td>Atharv Tarte</td>
+            <td>19</td>
+        </tr>
+        <tr>
+            <td>Nitin Gade</td>
+            <td>21</td>
+        </tr>
+    </table>
+
+    <table border="1">
+        <caption>Food Menu</caption>
+
+        <thead>
+            <tr>
+                <th rowspan="2">Items</th>
+                <th colspan="2">Price</th>
+            </tr>
+            <tr>
+                <th>INR</th>
+                <th>USD</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Frooti</td>
+                <td>10</td>
+                <td>0.14</td>
+            </tr>
+            <tr>
+                <td>Samosa</td>
+                <td>12</td>
+                <td>0.17</td>
+            </tr>
+            <tr>
+                <td>Chips</td>
+                <td>20</td>
+                <td>0.28</td>
+            </tr>
+        </tbody>
+        
+    </table>
+
+    <table border="1">
+        <caption>A test table with merged cells</caption>
+
+        <thead>
+            <tr>
+                <th rowspan="2"></th>
+                <th colspan="2">Average</th>
+                <th rowspan="2">Red eyes</th>
+            </tr>
+            <tr>
+                <th>Height</th>
+                <th>Weight</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Males</td>
+                <td>1.9</td>
+                <td>0.003</td>
+                <td>40%</td>
+            </tr>
+            <tr>
+                <td>Females</td>
+                <td>1.7</td>
+                <td>0.002</td>
+                <td>43%</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+    <hr>
+    <br>
+    <!--FORMs-->
+
+    <form action="/sarver">
+        <div>
+            <label for="text">Text</label>
+            <input type="text" id="text" placeholder="enter ID" name="text"/>
+        </div>
+        <div>
+            <label for="pass">Password</label>
+            <input type="password" placeholder="enter pass" id="pass" name="pass"/>
+        </div>
+        <button>Submit</button>
+        <br>
+        <!-- <input type="button" value="click me">
+        <input type="submit" name="" id=""> -->
+    </form>
+    <hr>
+    <form action="https://www.youtube.com/results">
+        <input type="text" name="search_query" placeholder="Search in youtube" />
+        <button>Search</button>
+    </form>
+    <hr>
+    <form action="https://www.google.com/search">
+        <input type="text" name="q" placeholder="Search in Google" />
+        <button>Search</button>
+
+    </form>
+
+    <br>
+
+    <form action="/server">
+         <!--Check Box-->
+        <input type="checkbox" name="age" id="age" checked />
+        <label for="age">I am 18+</label>
+        <br>
+        <input type="radio" name="fruit" id="apple" value="apple" />
+        <label for="apple">apple</label>
+        <input type="radio" name="fruit" id="mango" value="mango" />
+        <label for="mango">mango</label>
+        <input type="radio" name="fruit" id="banana" value="banana" />
+        <label for="banana">banana</label>
+        <br>
+        Select Proffession
+        <select name="profession" id="profession">
+            <option>Select your Option</option>
+            <option value="stu">Student</option>
+            <option value="dev">Developer</option>
+        </select>
+        <br>
+        <label for="vol">Volume</label>
+        <input type="range" id="vol" name="vol" />
+        <br>
+        <label for="fb"></label>
+        <textarea name="feedback" id="fb" cols="30" rows="10"></textarea>
+        <button>Submit</button>
+    </form>
+
+   
+</body>
+</html>
